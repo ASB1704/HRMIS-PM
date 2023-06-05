@@ -1,0 +1,29 @@
+.PR_Landing_page {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  .PRS_Navbar {
+    background-color: #8294c4;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PRS_Main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    .PRS_cards {
+      background-color: #8294c4;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+      height: 25vh;
+      width: 25vw;
+    }
+  }
+}
