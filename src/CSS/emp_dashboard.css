@@ -1,4 +1,8 @@
-.flex-row d-flex{
-    display: flex;
-    justify-content: center;
-  }
+.header{
+
+  display: flex;
+  justify-content: center;
+  background-color: rgb(7,2,71);
+  color: white;
+  padding: 10px;
+}
